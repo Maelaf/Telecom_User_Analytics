@@ -10,8 +10,8 @@ Q: Do you know the brand Lux?
 
 This is a test run and the main objective is to validate the hypothesis algorithm you built. SmartAd ran this campaign from 3-10 July 2020. The users that were presented with the questionnaire above were chosen according to the following rule:
 
-Control: users who have been shown a dummy ad
-Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client. 
+* Control: users who have been shown a dummy ad
+* Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client. 
 
 
 The data is available for download here.
