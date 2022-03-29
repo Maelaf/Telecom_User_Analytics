@@ -14,6 +14,7 @@ This is a test run and the main objective is to validate the hypothesis algorith
 * Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client. 
 
 <h1>Fields</h1>
+
 * auction_id: the unique id of the online user who has been presented the BIO. In standard terminologies this is called an impression id. The user may see the BIO questionnaire but choose not to respond. In that case both the yes and no columns are zero.
 * experiment: which group the user belongs to - control or exposed.
 * date: the date in YYYY-MM-DD format
