@@ -4,7 +4,12 @@ def convert_to_datetime(self, df: pd.DataFrame) -> pd.DataFrame:
         convert column to datetime
         """
 
+        df['start'] = pd.to_datetime(
+            df['start'])
+        df['end'] = pd.to_datetime(
+            df['end'])
 
+        return df
         return df
         
 
