@@ -10,7 +10,7 @@ def convert_to_datetime(self, df: pd.DataFrame) -> pd.DataFrame:
             df['end'])
 
         return df
-        return df
+     
         
 
       
