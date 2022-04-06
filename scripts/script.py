@@ -8,8 +8,7 @@ def convert_to_datetime(self, df: pd.DataFrame) -> pd.DataFrame:
             df['start'])
         df['end'] = pd.to_datetime(
             df['end'])
-
-        return df
+      return df
       
 def find_average(a_list:list)->float:
     if type(a_list) not in [list, tuple, set]:
